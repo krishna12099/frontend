@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
-    <link rel="stylesheet"href="mb.css"
-</head>
+    <link rel="stylesheet" href="mb.css" </head>
+
 <body>
     <table border="2" style="width: 100%;text-align: center;border-collapse:collapse;">
         <tr>
@@ -14,17 +15,55 @@
             <td rowspan="2">contact</td>
             <td rowspan="2">help</td>
             <td rowspan="2">store</td>
-            <td>Download</td>
-         </tr>
-         <tr>
-            <td>App</td>
-         </tr>
-         </table>
-         <img src="img_door.jpg"
-         alt="outside door">
+            <td style="background-color: rgb(238, 100, 100);">Download</td>
+        </tr>
+        <tr>
+            <td style="background-color:rgb(238, 100, 100);">App</td>
+        </tr>
+    </table>
+    <div style="display:flex">
+        <img style="flex:1;height: 300px;" src="./img/door.jpg" alt="logo" />
+        <img style="flex:1;height: 300px;" src="./img/door2.jpg" width="500px" alt="logo" />
+    </div>
+    <div style="text-align: center;background-color: palevioletred;height: 20px;">
+        <label>contact us page</label>
+    </div>
+    <div style="height: 200px;text-align: center;background-image: url(./img/contactUs.jpg);background-size: cover;">
+        <h2 style="margin-top: 10px;color: white;padding-top: 20px;"> Contact Us </h2>
+    </div>
+    <div style="display: flex;">
+        <div>
+            <div> First Name : <input type="text" placeholder="Enter your name"> </div>
+            <div> Last Name : <input type="text" placeholder="Enter your last name">  </div>
+        </div>
+    </div>
+    <div style="display:flex">
+        <div style="flex: 1;">
+            <iframe src="https://www.google.com/maps/embed?pb=YourMapURL"
+             height="500" style="border:0;width: 100%;" allowfullscreen="" loading="lazy">
+        </iframe>
+        </div>
+        <div style="flex: 1;">
+            <!-- <video src="https://www.youtube.com/watch?v=3ttYWBPCXdI"></video> -->
+            <video width="100%" height="500" controls>
+                <source src=
+                "https://media.geeksforgeeks.org/wp-content/uploads/20231020155223/
+                Full-Stack-Development-_-LIVE-Classes-_-GeeksforGeeks.mp4" 
+                                type="video/mp4" />
+              
+              </video>
+              
+        </div>
+    </div>
 
-        
-         
-         
+
+
+
+
+
+
+
+
 </body>
+
 </html>
