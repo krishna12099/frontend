@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        div{
+            background-color:blanchedalmond;
+            width:60%;
+            border: 5px salmon;
+            border-radius: 10px;
+            padding: 50px;
+            margin: 50px;
+            justify-items: center;
+        }
+        
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form 2</title>
-    <style>
-        div{background-color:blanchedalmond;width:60%;border: 5px salmon;border-radius: 10px;padding: 50px;margin: 50px;}
-        p{background-color:rgb(223, 136, 136);border-radius: 30px;}
-    </style>
+   
 </head>
 <body>
     <div>
-        <h1><u>Registration</u></h1>
-        <h3>Personal Details</h3>
+        <h1 align="center"><u>Registration</u></h1>
+        <h3 align="center"><b>Personal Details</b></h3>
         <form>
-            <fieldset>
+            
         <table cellspacing="25" align="Left">
             <tr>
                 <td>Full Name<br><input type="text"name="name"placeholder="Enter Your Name"></td>
@@ -34,7 +43,7 @@
 
         </table>
         
-        <h3>Other Details</h3>
+        <h3 align="center"><b>Other Details</b></h3>
         <table cellspacing="25"align="Left">
             <tr>
                 <td>Stream<br><input type="text"name="name"placeholder="Enter Your Stream"></td>
@@ -49,10 +58,15 @@
 
 
         </table>
-      <p align="center"> <input type="button"name="submit"value="submit"> </p>
-
-      </fieldset>
+        
+        
+           
+      
         </form>
+        
+            <p align="center"> <input type="button"name="submit"value="submit"> </p>
+             
+        
     </div>
 </body>
 </html>
