@@ -8,10 +8,14 @@
 .div1{
     width:100%;
     height:auto;
+
     background-color: brown;
     text-align: center;
-    float: left;
     padding-top: 30px;
+}
+h2{
+    text-align: center;
+    background-color: aquamarine;
 }
 
 .header{
