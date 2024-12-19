@@ -42,12 +42,31 @@ body{
     .col-12{width: 100%;}
 }
 .header{
-    color: brown;
-    background-color: azure;
+    color:black;
+    background-color:rgba(224, 131, 131, 0.616);
     text-align: center;
     padding: 2%;
     font-weight: 1000;
+    font-style: oblique;
+    font-size: x-large;
+    animation-name: ab;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
+
+
+@keyframes ab{
+    0%{background-color: aquamarine;left: 0px;right: 0px;}
+    25%{background-color:blueviolet;left: 200px;right: 0px;}
+    50%{background-color:blue;left: 200px;right: 200px;}
+    75%{background-color:antiquewhite;left: 0px;right: 200px;}
+   100%{background-color: aquamarine;left: 0px;right: 0px;}
+    
+
+}
+
 
 .topnav{
     overflow: hidden;
@@ -78,6 +97,10 @@ body{
 }
 .mainbar{
     padding: 1%;
+    background-color:blanchedalmond;
+    font-style:poppin;
+    font-weight: bold;
+    
 }
 .mainbar img{
     width: 100%;
